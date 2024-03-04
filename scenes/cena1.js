@@ -23,6 +23,7 @@ class Cena1 extends Phaser.Scene {
         this.add.image(400,300, 'play').setScale(0.1); 
         mensagem = this.add.text(140, 50, 'Bem-vind@ ao jogo!', { fontSize: '50px', fill: '#495613',  stroke: '#FFFFFF',  strokeThickness: 6});
         this.add.text(140, 100, 'Clique pra começar!', { fontSize: '50px', fill: '#495613',  stroke: '#FFFFFF',  strokeThickness: 6});
+        this.add.text(140, 140, 'Use setas do teclado para se movimentar!', { fontSize: '25px', fill: '#495613'});
 
     
 
