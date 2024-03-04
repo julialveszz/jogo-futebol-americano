@@ -15,7 +15,7 @@ class Cena1 extends Phaser.Scene {
         this.load.image("play", "assets/play_bt.png");
     }
 
-    // Função chamada quando a cena é criada
+    // Função de criação de elementos no jogo
     create() {    
         var mensagem;
 
@@ -32,8 +32,7 @@ class Cena1 extends Phaser.Scene {
         this.pointer = this.input.activePointer;
     
         
-    }
-
+    } // Função pra atualizar a lógica do jogo
     update() {
         if (this.pointer.isDown){
             this.scene.start('Cena2', this.game);
